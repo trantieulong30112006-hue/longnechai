@@ -1,0 +1,51 @@
+body {
+    background-color: rgb(15, 15, 107);
+    font-feature-settings: "alt";
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    height: 50vh;
+    margin: 250px;
+}
+
+.form-container {
+    border: #007bff;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 12px;
+}
+
+.lebel {
+    display: block;
+    font-weight: bold;
+    margin: 50px;
+}
+
+input[type="text"],
+input[type="location"],
+input[type="street"],
+input[type="address 2"],
+input[type="city"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 50px;
+}
+
+.submit-btn {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 5px;
+    cursor: pointer;
+}
+
+.submit-btn:hover {
+    background-color: darkgoldenrod;
+}
